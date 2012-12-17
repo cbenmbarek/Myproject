@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="com.esprit.airline">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="com.esprit.airlineEJB.jar" deploy-path="/" handle="module:/resource/com.esprit.airlineEJB/com.esprit.airlineEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.esprit.airlineWEB.war" deploy-path="/" handle="module:/resource/com.esprit.airlineWEB/com.esprit.airlineWEB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
